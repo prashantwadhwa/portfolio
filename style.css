@@ -83,10 +83,22 @@ nav ul li a:hover::after{
     font-family: Intro;
 }
 
-.header-text h1 span{
+.intro{
+    color: white;
+    font-family: Intro;
+    text-shadow: 3px 4px 9px rgba(0,0,0,0.63);
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989993px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756803px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279416px 0px;
+}
+
+
+.typing{
     color: #ff004f;
     font-family: Intro;
+    text-shadow: 3px 4px 9px rgba(0,0,0,0.63);
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989993px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756803px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279416px 0px;
+    
 }
+
 
 /* --------------about---------- */
 
@@ -439,6 +451,19 @@ nav .fa-solid{
     display: none;
 }
 
+
+.typing2{
+    display: inline-block;
+    justify-content: center;
+    color: #ff004f;
+    font: intro;
+    font-size: 35px;
+    margin-top: -200px;
+    text-align: center;
+    padding-left: 35% ;
+
+}
+
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .header-text{
         margin-top: 100%;
@@ -460,7 +485,7 @@ nav .fa-solid{
 
     .logo2{
     display: block;
-    width: 270px
+    width: 270px;
     }
 
     nav ul{
@@ -523,6 +548,18 @@ nav .fa-solid{
         font-size: 13px;
     }
 
+    .typing2{
+        display: inline-block;
+        justify-content: center;
+        color: #ff004f;
+        font: intro;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        /* overflow: hidden; */
+        padding-left: 13% ;
+    }
+
 }
 
 
@@ -538,6 +575,5 @@ nav .fa-solid{
 
 
 
-/* youtube */
-/* typed.js */
-/* change logo during responsive */
+
+

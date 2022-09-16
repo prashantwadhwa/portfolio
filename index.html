@@ -27,14 +27,16 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#youtube">YouTube Channel</a></li>
                     <li><a href="#contact">Contact</a></li>
+
                     <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
 
             <div class="header-text">
-                <p>Web Developer, Tech YouTuber</p>
-                <h1>Hi, I'm <br><span>Prashant Wadhwa</span></h1>
+                <h1>Hi, I'm <span class="intro">Prashant Wadhwa</span></h1>
+                <h1>A <span class="typing">Web Developer</span></h1>
+
             </div>
 
         </div>
@@ -194,7 +196,8 @@
 
                         prashantwadhwa19@gmail.com
                     </p> <br>
-                    <br> <a href="https://www.youtube.com/prashantwadhwa?sub_confirmation=1" target="_blank"><button class="btn">Subscribe
+                    <br> <a href="https://www.youtube.com/prashantwadhwa?sub_confirmation=1" target="_blank"><button
+                            class="btn">Subscribe
                             Here</button></a>
 
 
@@ -241,13 +244,45 @@
                 </div>
             </div>
         </div>
-        <div class="copyright">
-            <p>Copyright © Prashant Wadhwa. Made With <i class="fa-solid fa-heart"></i> by Prashant </p>
+
+
+    </div>
+    <div id="ending">
+        <div class="container">
+            <div>
+
+                <h1> <span class="typing2">Thanks For Visiting </span> </h1>
+
+            </div>
         </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © Prashant Wadhwa. Made With <i class="fa-solid fa-heart"></i> by Prashant </p>
     </div>
 
     <script src="port.js"></script>
     <script src="submit_form.js"></script>
+    <script src="typed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var typed = new Typed(".typing", {
+            strings: ["", "Web Designer", "Tech YouTuber", "Graphics Designer", "Video Editor"],
+            typeSpeed: 100,
+            BackSpeed: 100,
+            loop: true
+        })
+
+        var typed = new Typed(".typing2", {
+            strings: ["", "   Hey There!", "Hope You Liked My Page", "Make Sure To Subscribe", "Thanks For Visiting", "Have A Good Day!"],
+            typeSpeed: 100,
+            BackSpeed: 100,
+            loop: true
+
+        })
+    </script>
 </body>
 
 </html>

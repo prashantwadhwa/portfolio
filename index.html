@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/437f915e8b.js" crossorigin="anonymous"></script>
+
     <title>Portfolio: Prashant Wadhwa</title>
 </head>
 
@@ -17,16 +18,18 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="imgs/logo.png" class="logo">
-                <ul>
+                <img src="imgs/logo_big.png" class="logo1">
+                <img src="imgs/RESPONSIVE.png" class="logo2">
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">YouTube Channel</a></li>
-                    <li><a href="#">Contact</a></li>
-                    
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#youtube">YouTube Channel</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
 
             <div class="header-text">
@@ -67,7 +70,8 @@
                         <ul>
                             <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
                             <li><span>Web Development</span><br>Web App Development</li>
-                            <li><span>Video Editing</span><br>Professional Video Editing Using Adobe Premiere Pro and After Effects</li>
+                            <li><span>Video Editing</span><br>Professional Video Editing Using Adobe Premiere Pro and
+                                After Effects</li>
                             <li><span>Graphics</span><br>Graphics Designing Using Adobe Photoshop and Illustrator</li>
                         </ul>
                     </div>
@@ -83,7 +87,7 @@
                         <ul>
                             <li><span>2020 - 2024</span><br>B.Tech in Computer Science And Engineering</li>
                             <li><span>2020</span><br>Class 12th From MPPS</li>
-                            
+
                         </ul>
                     </div>
 
@@ -92,7 +96,7 @@
         </div>
     </div>
 
-<!-- serivces -->
+    <!-- serivces -->
 
     <div id="services">
         <div class="container">
@@ -102,106 +106,148 @@
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Designing</h2>
                     <p>Web Application Designing using HTML, CSS, JS. </p>
-                    <a id="learn_more" href="">Learn More</a>
+
                 </div>
-                
+
                 <div>
                     <i class="fa-solid fa-pen-nib"></i>
                     <h2>Graphics Designing</h2>
                     <p>Professional Graphics Designing Using Adobe Photoshop and Illustrator</p>
-                    <a id="learn_more" href="">Learn More</a>
+
                 </div>
 
                 <div>
                     <i class="fa-solid fa-video"></i>
                     <h2>Video Editing</h2>
                     <p>Professional Video Editing Using Adobe Premiere Pro and After Effects</p>
-                    <a id="learn_more" href="">Learn More</a>
+
                 </div>
 
             </div>
         </div>
     </div>
 
-<!-- portfolio -->
+    <!-- portfolio -->
 
-<div id="portfolio">
-    <div class="container">
-        <h1 class="subtitle">My Projects</h1>
-        <div class="proj_list">
-            <div class="proj">
-                <img src="imgs/work-1.png" alt="img not found">
-                <div class="layer">
-                    <h3>To-Do list</h3>
-                    <p>Add tasks like “Read work emails every day at 10am” to fill your to-do list in seconds using Todo list’s powerful natural language recognition and recurring dates.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="proj_list">
+                <div class="proj">
+                    <img src="imgs/work-1.png" alt="img not found">
+                    <div class="layer">
+                        <h3>To-Do list</h3>
+                        <p>Add tasks like “Read work emails every day at 10am” to fill your to-do list in seconds using
+                            Todo list’s powerful natural language recognition and recurring dates.</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="proj">
+                    <img src="imgs/work-2.png" alt="img not found">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>This Weather App pulls from a variety of local and global sources to give Android owners the
+                            most accurate forecasts possible.</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="proj">
+                    <img src="imgs/work-3.png" alt="img not found">
+                    <div class="layer">
+                        <h3>Notes App</h3>
+                        <p>A one stop app to create and store all your notes in One Place!!</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="proj">
+                    <img src="imgs/work-2.png" alt="img not found">
+                    <div class="layer">
+                        <h3>Music Player</h3>
+                        <p>A Music Player with a beautiful UI and some soothing musics :)</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
-            
-            <div class="proj">
-                <img src="imgs/work-2.png" alt="img not found">
-                <div class="layer">
-                    <h3>Weather App</h3>
-                    <p>This Weather App pulls from a variety of local and global sources to give Android owners the most accurate forecasts possible.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
 
-            <div class="proj">
-                <img src="imgs/work-3.png" alt="img not found">
-                <div class="layer">
-                    <h3>Notes App</h3>
-                    <p>A one stop app to create and store all your notes in One Place!!</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
+        </div>
+    </div>
 
-            <div class="proj">
-                <img src="imgs/work-2.png" alt="img not found">
-                <div class="layer">
-                    <h3>Music Player</h3>
-                    <p>A Music Player with a beautiful UI and some soothing musics :)</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+    <div id="youtube">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imgs/youtube_logo.jpg" alt="img not found">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">Youtube Channel</h1> <br> <br>
+                    <p class="subtitle-2">This is a Channel where you can see all types of videos such as Unboxing, Tech
+                        News and Product Reviews. <br>
+
+                        <br> Keep Subscribing and sharing my videos so that I also get motivated to make more videos for
+                        you Guys. <br>
+
+                        <br> For Business/Sponsorship/Review inquiries Contact me at :-
+
+                        prashantwadhwa19@gmail.com
+                    </p> <br>
+                    <br> <a href="https://www.youtube.com/prashantwadhwa?sub_confirmation=1" target="_blank"><button class="btn">Subscribe
+                            Here</button></a>
+
+
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See More</a>
     </div>
-</div>
+
+    <!-- contact -->
+
+
+    <div id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+
+                    <p> <i class="fa-solid fa-envelope"> </i><span id="text-hover">prashantwadhwa19@gmail.com</span></p>
+                    <p> <i class="fa-solid fa-phone"> </i><span id="text-hover"> 9306640603</span></p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100069326404520" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/prashantyt19/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.twitter.com/wadhwa1prashant" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/prashantwadhwa" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/prashantwadhwa19/ target=" _blank""><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="imgs/imgg.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" id="message" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Prashant Wadhwa. Made With <i class="fa-solid fa-heart"></i> by Prashant </p>
+        </div>
+    </div>
 
     <script src="port.js"></script>
-
+    <script src="submit_form.js"></script>
 </body>
 
 </html>
-
-<!--  
-<div>
-    <i class="fa-solid fa-list"></i>
-    <h2>To-Do list</h2>
-    <p>Add tasks like “Read work emails every day at 10am” to fill your to-do list in seconds using Todoist’s powerful natural language recognition and recurring dates.</p>
-    <a id="learn_more" href="">Learn More</a>
-</div>
-
-<div>
-    <i class="fa-solid fa-cloud"></i>
-    <h2>Weather App</h2>
-    <p>This Weather App pulls from a variety of local and global sources to give Android owners the most accurate forecasts possible. </p>
-    <a id="learn_more" href="">Learn More</a>
-</div>
-
-<div>
-    <i class="fa-solid fa-note-sticky"></i>
-    <h2>Notes App</h2>
-    <p>A one stop app to create and store all your notes in One Place!!</p>
-    <a id="learn_more" href="">Learn More</a>
-</div>
-
-<div>
-    <i class="fa-solid fa-music"></i>
-    <h2>Music Player</h2>
-    <p>A Music Player with a beautiful UI and some soothing musics :)</p>
-    <a id="learn_more" href="">Learn More</a>
-</div>
-
--->

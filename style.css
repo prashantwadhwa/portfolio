@@ -10,6 +10,10 @@ body{
     color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #header{
     width: 100;
     height: 100vh;
@@ -320,6 +324,8 @@ border-radius: 90%;
     margin: 50px auto;
     width: fit-content;
     border-color: #ff004f;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .btn:hover{
@@ -328,14 +334,210 @@ border-radius: 90%;
     box-shadow: 0 0.5em 0.5em -0.4em #e9d8a6;
     cursor: pointer;
     transform: translateY(-0.25em);
+    
 }
 
 
 
 
 /* CONTACT */
+
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.social-icons i{
+    color: #ababab;
+    margin-right: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons i:hover{
+    transform: translateY(-5px);
+    color: #ff004f;
+}
+
+.btn.btn-2{
+    display: inline-block;
+    background: #ff004f;
+    
+}
+
+.contact-right form{
+    width: 100%;
+
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+#text-hover:hover{
+    width:100%;
+    color: #ff004f;
+    
+    /* background-color: #ff004f; */
+    /* transform: translateY(-10px); */
+    transition: 0.5s;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background:#262626 ;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+
+.copyright i{
+    color: red;
+}
+
+#msg{
+    color: #61b761;
+    margin-top: -40px;
+    display: block;
+}
+
 /* responsive */
-/* Auto scroll */
+
+nav .fa-solid{
+    display:none;
+}
+
+.logo2{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1{
+        font-size: 30px;
+    }
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+
+    .logo1{
+    display: none;
+    }
+
+    .logo2{
+    display: block;
+    width: 270px
+    }
+
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        cursor: pointer;
+        top: 25px;
+        left: 25px;
+    }
+
+    .subtitle{
+        font-size: 35px;
+    }
+
+    .subtitle-2{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+
+    .about-col-1{
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .about-col-2{
+        margin-bottom: 14px;
+    }
+
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+        
+    }
+
+    .contact-left, .contact-right{
+        flex-basis: 100%
+    }
+
+    .copyright{
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* youtube */
 /* typed.js */
 /* change logo during responsive */

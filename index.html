@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/437f915e8b.js" crossorigin="anonymous"></script>
+    <title>Portfolio: Prashant Wadhwa</title>
+</head>
+
+<body>
+
+    <!-- header section -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imgs/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">YouTube Channel</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Web Developer, Tech YouTuber</p>
+                <h1>Hi, I'm <br><span>Prashant Wadhwa</span></h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- header section closed -->
+
+
+    <!-- about section start -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imgs/about_pic.jpg" alt="img not found">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="subtitle-2">Prashant Wadhwa is a Tech Geek, a Web Developer, with good command in HTML,
+                        CSS, JS.
+                        He has a Youtube Channel with over 5000 Subscribers, where he reviews latest Tech Gadgets. A
+                        creative Graphic Designer too!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Video Editing</span><br>Professional Video Editing Using Adobe Premiere Pro and After Effects</li>
+                            <li><span>Graphics</span><br>Graphics Designing Using Adobe Photoshop and Illustrator</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Graphic Designer at CC avenues</li>
+                            <li><span>2019 - 2021 </span><br>Video Editor at Ant Esports</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>B.Tech in Computer Science And Engineering</li>
+                            <li><span>2020</span><br>Class 12th From MPPS</li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- serivces -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services_lists">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Web Application Designing using HTML, CSS, JS. </p>
+                    <a id="learn_more" href="">Learn More</a>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphics Designing</h2>
+                    <p>Professional Graphics Designing Using Adobe Photoshop and Illustrator</p>
+                    <a id="learn_more" href="">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>Professional Video Editing Using Adobe Premiere Pro and After Effects</p>
+                    <a id="learn_more" href="">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="proj_list">
+            <div class="proj">
+                <img src="imgs/work-1.png" alt="img not found">
+                <div class="layer">
+                    <h3>To-Do list</h3>
+                    <p>Add tasks like “Read work emails every day at 10am” to fill your to-do list in seconds using Todo list’s powerful natural language recognition and recurring dates.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="proj">
+                <img src="imgs/work-2.png" alt="img not found">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This Weather App pulls from a variety of local and global sources to give Android owners the most accurate forecasts possible.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="proj">
+                <img src="imgs/work-3.png" alt="img not found">
+                <div class="layer">
+                    <h3>Notes App</h3>
+                    <p>A one stop app to create and store all your notes in One Place!!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="proj">
+                <img src="imgs/work-2.png" alt="img not found">
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>A Music Player with a beautiful UI and some soothing musics :)</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+    <script src="port.js"></script>
+
+</body>
+
+</html>
+
+<!--  
+<div>
+    <i class="fa-solid fa-list"></i>
+    <h2>To-Do list</h2>
+    <p>Add tasks like “Read work emails every day at 10am” to fill your to-do list in seconds using Todoist’s powerful natural language recognition and recurring dates.</p>
+    <a id="learn_more" href="">Learn More</a>
+</div>
+
+<div>
+    <i class="fa-solid fa-cloud"></i>
+    <h2>Weather App</h2>
+    <p>This Weather App pulls from a variety of local and global sources to give Android owners the most accurate forecasts possible. </p>
+    <a id="learn_more" href="">Learn More</a>
+</div>
+
+<div>
+    <i class="fa-solid fa-note-sticky"></i>
+    <h2>Notes App</h2>
+    <p>A one stop app to create and store all your notes in One Place!!</p>
+    <a id="learn_more" href="">Learn More</a>
+</div>
+
+<div>
+    <i class="fa-solid fa-music"></i>
+    <h2>Music Player</h2>
+    <p>A Music Player with a beautiful UI and some soothing musics :)</p>
+    <a id="learn_more" href="">Learn More</a>
+</div>
+
+-->

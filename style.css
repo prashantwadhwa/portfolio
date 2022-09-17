@@ -457,6 +457,26 @@ nav .fa-solid {
   padding-left: 38%;
 }
 
+
+#homepage a{
+  text-decoration: none;
+  color: white;
+  margin-left: 85%;
+  
+}
+
+#homepage a:hover{
+color: #ff004f;
+}
+
+.btn.btn3 {
+  margin-left: 3%;
+}
+
+.btn.btn4 {
+  margin-left: 17%;
+}
+
 @media only screen and (max-width: 600px) and (min-width: 320px) {
   .header-text {
     margin-top: 100%;
@@ -553,15 +573,16 @@ nav .fa-solid {
     /* overflow: hidden; */
     padding-left: 14%;
   }
+
+  #homepage a{
+    margin-left: 25%;
+    
+  }
+
+ 
 }
 
-.btn.btn3 {
-  margin-left: 3%;
-}
 
-.btn.btn4 {
-  margin-left: 17%;
-}
 
 #preloader{
   width:100%;

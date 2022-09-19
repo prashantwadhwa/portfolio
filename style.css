@@ -93,7 +93,7 @@ nav ul li a:hover::after {
 }
 
 .intro {
-  
+
   font-family: 'Palanquin Dark', sans-serif;
   text-shadow: 3px 4px 9px rgba(0, 0, 0, 0.63);
   text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px,
@@ -102,7 +102,7 @@ nav ul li a:hover::after {
     rgb(0, 0, 0) -0.653644px -0.756803px 0px,
     rgb(0, 0, 0) 0.283662px -0.958924px 0px,
     rgb(0, 0, 0) 0.96017px -0.279416px 0px;
-    
+
 }
 
 .typing {
@@ -149,7 +149,7 @@ nav ul li a:hover::after {
   color: #ff004f;
   font-family: 'Palanquin Dark', sans-serif;
   /* text-shadow: 1px 1px 6px rgba(255, 15, 15, 0.66); */
-  
+
 }
 
 .subtitle-2 {
@@ -230,7 +230,8 @@ nav ul li a:hover::after {
   font-size: 18px;
   font-weight: 300;
   border-radius: 1em;
-  transition: background 0.5s, transform 0.5s; /* this is to add transition while removing the mouse also*/
+  transition: background 0.5s, transform 0.5s;
+  /* this is to add transition while removing the mouse also*/
 }
 
 .services_lists div i {
@@ -468,15 +469,15 @@ nav .fa-solid {
 }
 
 
-#homepage a{
+#homepage a {
   text-decoration: none;
   color: white;
   margin-left: 85%;
-  
+
 }
 
-#homepage a:hover{
-color: #ff004f;
+#homepage a:hover {
+  color: #ff004f;
 }
 
 .btn.btn3 {
@@ -492,6 +493,14 @@ color: #ff004f;
     margin-top: 100%;
     font-size: 16px;
   }
+
+  .projs {
+
+    margin-top: 100%;
+    font-size: 16px;
+
+  }
+
 
   .header-text h1 {
     font-size: 30px;
@@ -584,30 +593,42 @@ color: #ff004f;
     padding-left: 14%;
   }
 
-  #homepage a{
+  #homepage a {
     margin-left: 25%;
+
+  }
+
+  .bang {
+    display: flex;
+    justify-content: center;
+    color: #ff004f;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 20px;
+    
+    margin: auto;
+    /* overflow: hidden; */
+    
     
   }
 
- 
 }
 
 
 
-#preloader{
-  width:100%;
+#preloader {
+  width: 100%;
   height: 100vh;
   position: fixed;
   z-index: 999999;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background: black;
-  
+
 }
 
 .eyes-8 {
-  display:flex;
-  gap:10px;
+  display: flex;
+  gap: 10px;
   background-size: 50%;
   height: 100vh;
   width: 100%;
@@ -617,36 +638,91 @@ color: #ff004f;
   place-items: center;
   z-index: 999999;
 }
+
 .eyes-8:before,
 .eyes-8:after {
-  content:"";
-  height:20px;
-  aspect-ratio:1;
-  border-radius:50%;
-  
+  content: "";
+  height: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+
   background:
     linear-gradient(#222 0 0) top/100% 40% no-repeat,
-    radial-gradient(farthest-side,#000 95%,#0000) 50%/8px 8px no-repeat
-    #fff;
-  animation: 2.5s infinite ;
+    radial-gradient(farthest-side, #000 95%, #0000) 50%/8px 8px no-repeat #fff;
+  animation: 2.5s infinite;
   animation-name: e8-1, e8-2;
 }
 
 @keyframes e8-1 {
+
   0%,
   40%,
-  100%{background-size:100% 40%,8px 8px}
+  100% {
+    background-size: 100% 40%, 8px 8px
+  }
+
   50%,
-  80% {background-size:100% 0% ,8px 8px}
-}
-@keyframes e8-2 {
-  0%,
-  50% {background-position:top,50% 50%}
-  60%,
-  65%{background-position:top,70% 50%}
-  70%,
-  75%{background-position:top,30% 50%}
-  90%,
-  100%{background-position:top,50% 50%}
+  80% {
+    background-size: 100% 0%, 8px 8px
+  }
 }
 
+@keyframes e8-2 {
+
+  0%,
+  50% {
+    background-position: top, 50% 50%
+  }
+
+  60%,
+  65% {
+    background-position: top, 70% 50%
+  }
+
+  70%,
+  75% {
+    background-position: top, 30% 50%
+  }
+
+  90%,
+  100% {
+    background-position: top, 50% 50%
+  }
+}
+
+.fire {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 18px;
+}
+
+
+.bang {
+  display: flex;
+  justify-content: center;
+  color: #ff004f;
+  font-family: 'Palanquin Dark', sans-serif;
+  text-shadow: 3px 4px 9px rgba(0, 0, 0, 0.63);
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px,
+    rgb(0, 0, 0) -0.416147px 0.909297px 0px,
+    rgb(0, 0, 0) -0.989993px 0.14112px 0px,
+    rgb(0, 0, 0) -0.653644px -0.756803px 0px,
+    rgb(0, 0, 0) 0.283662px -0.958924px 0px,
+    rgb(0, 0, 0) 0.96017px -0.279416px 0px;
+}
+
+.projs {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Palanquin Dark', sans-serif;
+  text-shadow: 3px 4px 9px rgba(0, 0, 0, 0.63);
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px,
+    rgb(0, 0, 0) -0.416147px 0.909297px 0px,
+    rgb(0, 0, 0) -0.989993px 0.14112px 0px,
+    rgb(0, 0, 0) -0.653644px -0.756803px 0px,
+    rgb(0, 0, 0) 0.283662px -0.958924px 0px,
+    rgb(0, 0, 0) 0.96017px -0.279416px 0px;
+}
